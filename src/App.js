@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from '../src/Componets/Home';
-import Login from '../src/Componets/Login';
-import Signup from '../src/Componets/Signup';
-import Navigation from '../src/Componets/Navigation'; 
-import './App.css'; 
+import Home from './pages/Home'; 
+import Login from './pages/Login'; 
+import Signup from './pages/Signup'; 
+import Navigation from './components/Navibar'; 
+import '../src/App.css';
 
 function App() {
   return (
@@ -23,7 +23,6 @@ function App() {
 }
 
 export default App;
-
 
 
 
